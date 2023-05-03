@@ -16,7 +16,7 @@ export function Notifications() {
   }
     return (
 
-      <div className="Notifications">
+      <div className="Notifications" data-testid="notifications">
         <p>Here is the list of notifications</p>
         <ul>
           <li data-priority="regular">New course available</li>
