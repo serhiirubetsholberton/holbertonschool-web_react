@@ -13,8 +13,8 @@ describe('utils', () => {
     const expectedDashboardText = 'Holberton School main dashboard';
 
     let isIndexPage = true;
-
     expect(getFooterCopy(isIndexPage)).toBe(expectedIndexText);
+    
     isIndexPage = false;
     expect(getFooterCopy(isIndexPage)).toBe(expectedDashboardText);
   });
