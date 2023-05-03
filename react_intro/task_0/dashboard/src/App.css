@@ -1,0 +1,46 @@
+p {
+  margin: 0;
+}
+
+.App {
+  padding: 10px 10px;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+}
+
+.App-header img {
+  width: 200px;
+  height: 200px;
+}
+
+.App-header h1 {
+  color: #dd364d;
+  margin-left: 15px;
+}
+
+.App-body {
+  padding-top: 50px;
+  min-height: 400px;
+  border-top: 3px solid #dd364d;
+  border-bottom: 3px solid #dd364d;
+}
+
+.App-body p {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 18px;
+}
+
+.App-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.App-footer p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
