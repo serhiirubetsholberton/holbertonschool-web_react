@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <div className="root-notifications">
         <Notifications />
-        <Notifications />
       </div>  
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -16,7 +15,7 @@ function App() {
       </header>
       <main className="App-body">
         <p>Login to access the full dashboard</p>
-        <p className="App-auth-form">
+        <div className="App-auth-form">
           <form action="/" method="post">
             <label>
               <span>Email:</span>
@@ -28,7 +27,7 @@ function App() {
             </label>
             <button type="submit">Ok</button>
           </form>
-        </p>
+        </div>
    
       </main> 
       <footer className="App-footer"><p>Copyright {getFullYear()} - {getFooterCopy(true)}</p></footer>

@@ -46,6 +46,11 @@ p {
   font-size: 20px;
 }
 
+.App-auth-form {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .App-auth-form label {
   margin-right: 15px;
 }
